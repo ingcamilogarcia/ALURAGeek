@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="encabezado">
+        <h1 class="titulo_encabezado_pie_de_pagina">AluraGeek</h1>
+    </header>
+
+    <main class="main-contenido">
+        <section class="section-productos">
+            <h2 class="titulo-productos">Mis Productos-PC GAMER</h2>
+            <div class="producto-container" data-producto> </main>
+        </section>
+
+        <!--Inicio sección formulario-->
+        <section class="section-formulario">
+            <h2 class="titulo-formulario">Agregar Producto</h2>
+
+            <!--Formulario-->
+            <form class="formulario-agregar-producto" data-form>
+                <fieldset class="formulario-producto">
+                    <input name="nombre" id="nombre" class="input-producto" placeholder="Nombre" type="text"
+                        data-nombre />
+                </fieldset>
+                <fieldset class="formulario-producto">
+                    <input name="precio" id="precio" class="input-producto" placeholder="Precio" type="text"
+                        data-precio />
+                </fieldset>
+                <fieldset class="formulario-producto">
+                    <input name="imagen" id="imagen" class="input-producto" placeholder="Imagen" type="text"
+                        data-imagen />
+                </fieldset>
+                <div class="formulario-botones">
+                    <button type="submit" class="boton-enviar" id="btn">Enviar</button>
+                    <button type="reset" class="boton-limpiar" id="btn">Limpiar</button>
+                </div>
+            </form>
+
+        </section>
+<!--Inicio Footer-->
+    <footer class="pie_pagina">
+        <h1 class="titulo_encabezado_pie_de_pagina">AluraGeek</h1>
+        <p class="copyright">CAMILO GARCIA</p>
+        <p class="copyright">Alura Latam - Oracle-2024</p>
+        <div class="footer-logo-container">
+        
+        </div>
+    </footer>
+    <script src="js/controllers/main.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+{
+  "alurageek": [
+    {
+      "id": "1",
+      "nombre": "360",
+      "precio": 50,
+      "imagen": "image/360.png"
+    },
+    {
+      "id": "2",
+      "nombre": "basico",
+      "precio": 20,
+      "imagen": "image/basico.png"
+    },
+    {
+      "id": "3",
+      "nombre": "dell",
+      "precio": 100,
+      "imagen": "image/dell.png"
+    },
+    {
+      "id": "4",
+      "nombre": "gameravanzado",
+      "precio": 35,
+      "imagen": "image/gameravanzado.png"
+    },
+    {
+      "id": "5",
+      "nombre": "Gamerprofesional",
+      "precio": 5,
+      "imagen": "image/Gamerprofesional.png"
+    },
+    {
+      "id": "6",
+      "nombre": "katana",
+      "precio": 10,
+      "imagen": "image/katana.png"
+    },
+    {
+      "id": "7",
+      "nombre": "msi",
+      "precio": 25,
+      "imagen": "image/msi.png"
+    },
+    {
+      "id": "8",
+      "nombre": "PcGamer",
+      "precio": 5,
+      "imagen": "image/PcGamer.png"
+    },
+    {
+      "id": "9",
+      "nombre": "PcGamer2",
+      "precio": 28,
+      "imagen": "image/PcGamer2.png"
+    }
+  ]
+}
